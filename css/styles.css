@@ -85,13 +85,14 @@ background-color: var(--white-bgc-header-teamcard-color);
     font-style: normal;
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.01;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         color: var(--white-bgc-header-teamcard-color);
+        text-align: center
 }
 
 .hero-button {
-        font-family: 'Roboto';
+        font-family: 'Roboto',sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -102,6 +103,9 @@ background-color: var(--white-bgc-header-teamcard-color);
         cursor: pointer;
 }
 .hero-button:hover{
+    background-color: var(--ocean-bgc-hover-focus-active-color);
+}
+.hero-button:focus{
     background-color: var(--ocean-bgc-hover-focus-active-color);
 }
 .feature {}
@@ -136,6 +140,7 @@ background-color: var(--white-bgc-header-teamcard-color);
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--navy-blue-dark-shadows-headings-color);
+        text-align: center;
 }
 .about-list {}
 .about-item {}
@@ -151,11 +156,14 @@ background-color: var(--white-bgc-header-teamcard-color);
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--navy-blue-dark-shadows-headings-color);
+        text-align: center;
 }
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: var(--white-bgc-header-teamcard-color);
+}
 
 .team-name {
         font-weight: 500;
